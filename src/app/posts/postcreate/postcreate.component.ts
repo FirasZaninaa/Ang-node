@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./postcreate.component.css']
 })
 export class PostcreateComponent implements OnInit {
-
+  newPost = '';
   onAddPost(){
-    alert("it works")
+    this.newPost = 'The user is me';
   }
 
   constructor() { }
